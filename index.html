@@ -198,6 +198,34 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    // 1. Die Audio-Datei laden
+    // (Passe den Pfad an, falls deine Datei anders heißt oder woanders liegt)
+    const quackSound = new Audio('audio/quack.mp3');
+
+    // 2. Alle "In den Warenkorb"-Buttons auf der Seite finden.
+    // In deinem Code haben diese einfach die Klasse "button".
+    const buyButtons = document.querySelectorAll('.product-text .button');
+
+    // 3. Jedem dieser Buttons einen "Ohrwurm" (Event Listener) verpassen
+    buyButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Dies setzt den Sound auf 0 Sekunden zurück.
+            // So quackt es auch dann sofort, wenn man ganz schnell zweimal klickt!
+            quackSound.currentTime = 0;
+
+            // Sound abspielen
+            quackSound.play();
+        });
+    });
+</script>
+
+</body>
+</html>
+
+
 </body>
 
 
