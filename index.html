@@ -3,44 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Startseite - A-Teria</title>
-    <link href = "styles.css" rel = "stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 
 <body>
 <nav>
-    <div id = "navbar">
-        <div id = "navbar-logo">
-            <img src = "images/CapDuckLogo.png" alt = "The A-Teria company logo">
+    <div id="navbar">
+        <div id="navbar-logo">
+            <img src="images/CapDuckLogo.png" alt="The A-Teria company logo">
         </div>
 
-        <div id = "navbar-links">
+        <div id="navbar-links">
             <ul>
                 <li>
-                    <a href = "#product-body">
+                    <a href="#product-body">
                         Startseite
                     </a>
                 </li>
                 <li>
-                    <a href = "#product-main">
+                    <a href="#product-main">
                         Produkte
                     </a>
                 </li>
                 <li>
-                    <a href = "about.html">
+                    <a href="about.html">
                         Über uns
                     </a>
                 </li>
             </ul>
-            <div id = "navbar-tools">
-                <a id = "cart" href = "#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+            <div id="navbar-tools">
+                <a id="cart" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag"
+                         viewBox="0 0 16 16">
                         <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
                     </svg>
                     <span>0</span>
                 </a>
-                <a id = "likes" href = "#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <a id="likes" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                         class="bi bi-heart" viewBox="0 0 16 16">
                         <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                     </svg>
                     <span>0</span>
@@ -51,145 +53,157 @@
 </nav>
 
 <!-- Main -->
-<div id = "product-body">
+<div id="product-body">
 
     <!-- Top Section -->
-    <div id = "product-top-container">
-        <div id = "product-top-wrapper">
-            <div id = "product-top-text">
+    <div id="product-top-container">
+        <div id="product-top-wrapper">
+            <div id="product-top-text">
                 <h1>Jetzt zugreifen!</h1>
                 <h2>Wireless Headphones</h2>
                 <p>
-                    Zusätzlich im Angebot: Erhalten Sie bis zu fünf von uns hergestellten Wireless-Headphones zum Erst-Abo von UpStart.
-                    Unsere neueste Applikation UpStart vereinfacht das On-/Offboarding und managen neuer Mitarbeiter/innen in der Firma.
-                    Einfach importierbare Daten für die Accounterstellung, Hardware Bestellungen, Buddy-System, Videos und Quizze zur
+                    Zusätzlich im Angebot: Erhalten Sie bis zu fünf von uns hergestellten Wireless-Headphones zum
+                    Erst-Abo von UpStart.
+                    Unsere neueste Applikation UpStart vereinfacht das On-/Offboarding und managen neuer
+                    Mitarbeiter/innen in der Firma.
+                    Einfach importierbare Daten für die Accounterstellung, Hardware Bestellungen, Buddy-System, Videos
+                    und Quizze zur
                     Unternehmenskultur und Sicherheitsregeln, Erfolgsstatistiken, etc.
                 </p>
-                <button class = "button" value = "Button to Shop the latest trending">
+                <button class="button" value="Button to Shop the latest trending">
                     Jetzt kaufen!
                 </button>
             </div>
 
-            <div id = "product-top-image">
-                <img src = "images/Headphone.png" alt = "Headphones">
+            <div id="product-top-image">
+                <img src="images/Headphone.png" alt="Headphones">
             </div>
         </div>
     </div>
 
 
     <!-- Products -->
-    <div class = "products" id = "product-main">
-        <div class = "product-main-container">
-            <div class = "category-container">
-                <div class = "category-type">
-                    <span class = "line"></span>
-                    <span class = "category-text">Alle Produkte</span>
+    <div class="products" id="product-main">
+        <div class="product-main-container">
+            <div class="category-container">
+                <div class="category-type">
+                    <span class="line"></span>
+                    <span class="category-text">Alle Produkte</span>
                 </div>
                 <h1>Die Beliebtesten</h1>
             </div>
-            <div class = "slide-button-container" data-slides = "main">
-                <button class = "slide-button prev" aria-label = "Previous slider button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223"/>
+            <div class="slide-button-container" data-slides="main">
+                <button class="slide-button prev" aria-label="Previous slider button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                         class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223"/>
                     </svg>
                 </button>
 
-                <button class = "slide-button next" aria-label = "Next slider button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/>
+                <button class="slide-button next" aria-label="Next slider button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                         class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/>
                     </svg>
                 </button>
             </div>
         </div>
 
-        <div class = "products-container">
+        <div class="products-container">
             <ul>
-                <li class = "product-card">
-                    <div class = "product-image">
-                        <img src = "images/product-page/product-collection/01.png" alt = "Icon for UpStart product">
-                        <button class = "heart-button" aria-label = "Button to add product to the wishlist">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" stroke-width = "2">
+                <li class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-page/product-collection/01.png" alt="Icon for UpStart product">
+                        <button class="heart-button" aria-label="Button to add product to the wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-heart" viewBox="0 0 16 16" stroke-width="2">
                                 <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                             </svg>
                         </button>
                     </div>
 
-                    <div class = "product-text">
+                    <div class="product-text">
                         <h1>UpStart</h1>
                         <p>24,99 € / Monat</p>
-                        <button class = "button" value = "Button to add product to the cart">
+                        <button class="button" value="Button to add product to the cart">
                             In den Warenkorb
                         </button>
                     </div>
                 </li>
-                <li class = "product-card">
-                    <div class = "product-image">
-                        <img src = "images/product-page/product-collection/02.png" alt = "Icon for Lumis product">
-                        <button class = "heart-button" aria-label = "Button to add product to the wishlist">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" stroke-width = "2">
+                <li class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-page/product-collection/02.png" alt="Icon for Lumis product">
+                        <button class="heart-button" aria-label="Button to add product to the wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-heart" viewBox="0 0 16 16" stroke-width="2">
                                 <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                             </svg>
                         </button>
                     </div>
 
-                    <div class = "product-text">
+                    <div class="product-text">
                         <h1>Lumis</h1>
                         <p>69 € ohne Zusatzpacks</p>
-                        <button class = "button" value = "Button to add product to the cart">
+                        <button class="button" value="Button to add product to the cart">
                             In den Warenkorb
                         </button>
                     </div>
                 </li>
-                <li class = "product-card">
-                    <div class = "product-image">
-                        <img src = "images/product-page/product-collection/03.png" alt = "Icon for Questor product">
-                        <button class = "heart-button" aria-label = "Button to add product to the wishlist">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" stroke-width = "2">
+                <li class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-page/product-collection/03.png" alt="Icon for Questor product">
+                        <button class="heart-button" aria-label="Button to add product to the wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-heart" viewBox="0 0 16 16" stroke-width="2">
                                 <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                             </svg>
                         </button>
                     </div>
 
-                    <div class = "product-text">
+                    <div class="product-text">
                         <h1>Questor</h1>
                         <p>14,99 € / Monat</p>
-                        <button class = "button" value = "Button to add product to the cart">
+                        <button class="button" value="Button to add product to the cart">
                             In den Warenkorb
                         </button>
                     </div>
                 </li>
-                <li class = "product-card">
-                    <div class = "product-image">
-                        <img src = "images/product-page/product-collection/04.png" alt = "Icon for LectureThis product">
-                        <button class = "heart-button" aria-label = "Button to add product to the wishlist">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" stroke-width = "2">
+                <li class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-page/product-collection/04.png" alt="Icon for LectureThis product">
+                        <button class="heart-button" aria-label="Button to add product to the wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-heart" viewBox="0 0 16 16" stroke-width="2">
                                 <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                             </svg>
                         </button>
                     </div>
 
-                    <div class = "product-text">
+                    <div class="product-text">
                         <h1>LectureThis</h1>
                         <p>19 € / Semester</p>
-                        <button class = "button" value = "Button to add product to the cart">
+                        <button class="button" value="Button to add product to the cart">
                             In den Warenkorb
                         </button>
                     </div>
                 </li>
-                <li class = "product-card">
-                    <div class = "product-image">
-                        <img src = "images/product-page/product-collection/05.png" alt = "Icon for EcoTrace product">
-                        <button class = "heart-button" aria-label = "Button to add product to the wishlist">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" stroke-width = "2">
+                <li class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-page/product-collection/05.png" alt="Icon for EcoTrace product">
+                        <button class="heart-button" aria-label="Button to add product to the wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-heart" viewBox="0 0 16 16" stroke-width="2">
                                 <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                             </svg>
                         </button>
                     </div>
 
-                    <div class = "product-text">
+                    <div class="product-text">
                         <h1>EcoTrace</h1>
                         <p>49 € / Monat</p>
-                        <button class = "button" value = "Button to add product to the cart">
+                        <button class="button" value="Button to add product to the cart">
                             In den Warenkorb
                         </button>
                     </div>
@@ -201,22 +215,13 @@
 
 
 <script>
-    // 1. Die Audio-Datei laden
-    // (Passe den Pfad an, falls deine Datei anders heißt oder woanders liegt)
-    const quackSound = new Audio('audio/quack.mp3');
 
-    // 2. Alle "In den Warenkorb"-Buttons auf der Seite finden.
-    // In deinem Code haben diese einfach die Klasse "button".
+    const quackSound = new Audio('audio/quack.mp3');
     const buyButtons = document.querySelectorAll('.product-text .button');
 
-    // 3. Jedem dieser Buttons einen "Ohrwurm" (Event Listener) verpassen
     buyButtons.forEach(button => {
         button.addEventListener('click', () => {
-            // Dies setzt den Sound auf 0 Sekunden zurück.
-            // So quackt es auch dann sofort, wenn man ganz schnell zweimal klickt!
             quackSound.currentTime = 0;
-
-            // Sound abspielen
             quackSound.play();
         });
     });
